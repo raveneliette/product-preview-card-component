@@ -50,7 +50,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 43.75em) {
   .main {
     margin: 2.5rem 2rem;
     grid-template-columns: 1fr;
@@ -58,7 +58,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 23.5em) {
   .main {
     margin: 2.5rem 1.5rem;
   }
@@ -73,7 +73,7 @@ body {
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 43.75em) {
   .image-container {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -89,7 +89,7 @@ body {
   padding: 3rem;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 43.75em) {
   .info-container {
     border-top-right-radius: 0;
     border-bottom-left-radius: 1rem;
@@ -97,7 +97,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 23.5em) {
   .info-container {
     padding: 2.5rem;
   }
