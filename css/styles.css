@@ -43,7 +43,7 @@ body {
 }
 
 .main {
-  box-shadow: 10px 0 35px -30px var(--box-shadow-cream-darker);
+  box-shadow: 1rem 0 3.5rem -3rem var(--box-shadow-cream-darker);
   min-height: 45rem;
   max-width: 60rem;
   display: grid;
@@ -54,7 +54,7 @@ body {
   .main {
     margin: 2.5rem 2rem;
     grid-template-columns: 1fr;
-    grid-template-rows: 270px 2fr;
+    grid-template-rows: 27rem 2fr;
   }
 }
 
@@ -150,7 +150,7 @@ body {
 .btn-link:visited {
   background-color: var(--color-primary-dark-cyan);
   border-radius: 0.8rem;
-  box-shadow: 10px 10px 20px -15px var(--box-shadow-dark-cyan-darker);
+  box-shadow: 1rem 1rem 2rem -1.5rem var(--box-shadow-dark-cyan-darker);
   color: var(--color-neutral-white);
   display: flex;
   font-family: "Montserrat", sans-serif;
@@ -170,7 +170,7 @@ body {
 
 .btn-link:active {
   background-color: var(--color-neutral-dark-blue);
-  box-shadow: 5px 5px 5px -5px var(--box-shadow-dark-cyan-darker);
+  box-shadow: 0.5rem 0.5rem 0.5rem -0.5rem var(--box-shadow-dark-cyan-darker);
   transition: 0.2s;
 }
 
